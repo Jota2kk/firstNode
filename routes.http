@@ -1,0 +1,31 @@
+POST http://localhost:3333/hello
+Content-Type: application/json
+
+{
+    "title": "node",
+    "description": "firstvideo descricao",
+    "duration": 0
+}
+
+###
+
+GET http://localhost:3333/hello
+
+###
+
+
+
+PUT http://localhost:3333/hello/771048e8-205a-466c-98c8-7279e45be830	
+Content-Type: application/json
+
+{
+    "title": "ss",
+    "description": "second video descricao",
+    "duration": 33
+}
+
+###
+
+DELETE http://localhost:3333/hello/771048e8-205a-466c-98c8-7279e45be830	
+
+
